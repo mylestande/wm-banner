@@ -1,0 +1,49 @@
+.container {
+    @apply w-full flex flex-col gap-1 justify-start items-start
+}
+
+.container > span {
+    @apply text-xs text-danger-600 pl-2;
+}
+
+.input {
+    @apply relative flex flex-col justify-start items-start w-full gap-1;
+}
+
+.formLabel {
+    @apply font-normal capitalize text-grey-700 text-sm pl-2; 
+}
+
+.inputContainer {
+    @apply flex flex-row justify-start items-center border rounded border-grey-200 h-auto bg-white w-full;
+}
+
+.inputContainer > span {
+    @apply bg-primary-600 py-2.5 px-2 text-base italic font-normal text-white;
+}
+
+.inputContainer > p {
+    @apply py-2.5 px-2 text-base;
+}
+
+.products {
+    @apply grid grid-cols-2 gap-2 mt-1 flex-wrap;
+    @apply md:grid-cols-3;
+    @apply lg:grid-cols-4;
+}
+
+.product {
+    @apply relative w-full max-w-56 xl:max-w-48 h-28 rounded-lg overflow-clip shadow-md;
+}
+
+.product > img {
+    @apply object-cover object-center w-full h-full;
+}
+
+.removeProduct {
+    @apply absolute flex justify-center items-center top-2 right-2 size-8 rounded-full bg-white cursor-pointer z-10 duration-200 ease-in-out hover:scale-105;
+}
+
+.removeIcon {
+    @apply size-5 fill-danger-600;
+}
