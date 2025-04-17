@@ -92,7 +92,7 @@ The presence of the `.git/` directory shows that version control is managed with
 ### Application Functionality
 
 #### UI and Layout:
-- The `src/app/layout.tsx` file defines a common layout that wraps around the pages of the application. It probably includes shared elements like headers, footers, or navigation.
+- The `src/app/layout.tsx` file defines a common layout that wraps around the pages of the application. It includes shared elements like headers, footers, or navigation.
 - The `src/app/page.tsx` file serves as the main landing page of the application.
 
 #### Components:
